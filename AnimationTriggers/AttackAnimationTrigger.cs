@@ -10,7 +10,7 @@ namespace Trell.Animation.Triggers
 
         public AttackAnimationTrigger() { }
 
-        public void SetTrigger(Animator animator)
+        public void UseOn(Animator animator)
         {
             animator.SetTrigger(Attack);
         }

@@ -4,6 +4,6 @@ namespace Trell.Animation.Core
 {
     public interface IAnimationTrigger
     {
-        void SetTrigger(Animator animator);
+        void UseOn(Animator animator);
     }
 }

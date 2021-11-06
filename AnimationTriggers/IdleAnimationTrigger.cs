@@ -9,7 +9,7 @@ namespace Trell.Animation.Triggers
 
         private const float MinSpeed = 0f;
 
-        public void SetTrigger(Animator animator)
+        public void UseOn(Animator animator)
         {
             animator.SetFloat(Speed, MinSpeed);
         }
